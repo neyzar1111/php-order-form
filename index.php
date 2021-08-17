@@ -40,9 +40,9 @@ function validate()
 {
     $invalidFields = [];
 
-    if (empty($_POST['email'])) {
-        array_push($invalidFields, 'Please chek your email.');
-    }
+//    if (empty($_POST['email'])) {
+//        array_push($invalidFields, 'Please chek your email.');
+//    }
     if (empty($_POST['street'])) {
         array_push($invalidFields, 'Please chek your street.');
     }
